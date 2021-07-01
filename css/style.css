@@ -1,0 +1,171 @@
+:root{
+    --purpura1: #5E17EB;
+    --purpura2: #572FEB;
+    --purpura3: #4C47EB;
+    --purpura4: #A499FF;
+    --verde1: #00B050;
+    --verde2: #30C67E;
+    --plomo: #A091A9;
+    --blanco: #FFFFFF;
+    --negro: #2F2E41;
+}
+.p1-purpura{
+    font-family: "Century Gothic";
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: var(--purpura1);
+}
+.p1-EndPurpura{
+    font-family: "Century Gothic";
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: var(--purpura1);
+}
+
+.p1-blanco{
+    font-family: "Century Gothic";
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: var(--blanco);
+}
+.p1-negro{
+    font-family: "Century Gothic";
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: var(--negro);
+}
+h1{
+    font-family: "Fredoka One";
+    font-weight: normal;
+    font-size: 45px;
+    letter-spacing: 0px;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    color: var(--purpura1);
+}
+.h1-blanco{
+    color: var(--blanco);
+}
+.h1-purpura{
+    color: var(--purpura1);
+}
+h2{
+    font-family: "Century Gothic";
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 0px;
+    color: var(--purpura1);
+}
+h3{
+    font-family: "Century Gothic";
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: var(--verde2);
+}
+h4{
+    font-family: "Century Gothic";
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 22px;
+    letter-spacing: 0px;
+    color: var(--purpura3);
+    padding: 4rem;
+}
+h5{
+    font-family: "Century Gothic";
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: var(--purpura1);
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.text-center {
+    text-align: center;
+}
+.d-flex {
+    display: flex;
+}
+.text-lg-left {
+    text-align: left;
+}
+.featured-text {
+    padding: 2rem;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+}
+.align-items-center {
+    align-items: center ;
+}
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+section {margin: 0 auto;}
+
+.bg-ini{
+    margin-top: 3rem;
+}
+.bg-beneficios{
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 10rem 0;
+    background-image: url("../img/BeneficiosTrazado.jpg");
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-mision
+{
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 3rem 0;
+}
+.bg-nosotros
+{
+    margin-bottom: 4rem;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 4rem 0;
+}
+.btn-ini{
+    background-color: var(--purpura2);
+    font-family: "Century Gothic";
+    color: var(--blanco);
+}
+.card-purpura{
+    border-color: var(--purpura3);
+    border-radius: 0.90rem;
+    border-width: 0.02rem;
+}
+.bg-foot{
+    background-color: var(--purpura4);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+.footer-purpura {
+    padding:50px 0;
+    background-color:var(--purpura4);
+}
+
+.footer-li{
+    list-style: none;
+}
+
